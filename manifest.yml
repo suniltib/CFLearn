@@ -1,0 +1,11 @@
+applications:
+- name: roaster
+  memory: 750M
+  instances: 1
+  random-route: true
+  buildpack: java_buildpack_offline
+  path: C:\Users\sunil.kariyannavar\Desktop\learning\cflearn\workspace\cfcert\rest-data-service.jar
+  env:
+    Sunil_ENV: testsunil1 
+  services:
+  - mysql

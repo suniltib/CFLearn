@@ -18,3 +18,4 @@ URL to back end service
 cf bs web ui to backend 
 
 -- no-start 
+cf events appname
